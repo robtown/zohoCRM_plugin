@@ -1,0 +1,59 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+.zoho-wizard {
+	position: absolute;
+	background: #FCFCFC;
+	margin: 0 -30px -30px;
+}
+.zoho-wizard .media-frame-title,
+.zoho-wizard .media-frame-content,
+.zoho-wizard .media-frame-toolbar {
+	left: 0;
+	padding: 0 30px;
+}
+.zoho-wizard .media-frame-title h2 {
+	margin: 0;
+	padding: 0 16px;
+}
+.zoho-wizard .media-frame-content {
+	padding: 0 30px 60px;
+}
+.zoho-wizard input[type="text"] {
+	display: block;
+	width: 100%;
+	max-width: 240px;
+	margin: 0.5em 0;
+}
+.zoho-wizard .media-frame-toolbar .media-toolbar-secondary a{
+	padding: 12px;
+}
+.zoho-wizard .section {
+ 	padding: 1em 0 0 1em;
+}
+.zoho-wizard .section .section{
+	padding: .5em 0 0 1.5em;
+}
+.show{
+	display:block;
+}
+.hide{
+	display: none;
+}
+.helper{
+	max-width:600px;
+}
+.admin-endpoints-authorize{
+	margin-left:160px;
+}
+.admin-endpoints-authorize .buttons-area{
+	padding-left:20px;
+}
+
+.menu-top.toplevel_page_zohoCRM .wp-menu-image.dashicons-before::before{
+	padding-top: 0px;
+	content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAiCAYAAABfqvm9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjY2NzBFMjczODZGRTExRTk4NUUzQjAwNzlGM0EwODREIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjY2NzBFMjc0ODZGRTExRTk4NUUzQjAwNzlGM0EwODREIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NjY3MEUyNzE4NkZFMTFFOTg1RTNCMDA3OUYzQTA4NEQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NjY3MEUyNzI4NkZFMTFFOTg1RTNCMDA3OUYzQTA4NEQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7kw6kqAAACZ0lEQVR42uzV3UtTcRgH8O/5nbPX3KZz82XJXMuWJDKRtBdFeocEI6gwpRZ0EXWRF+VNXSRdhFAXCRW9EQiChBdFQZamM9TSyMIMDTeztPmydGsvZ262c86v/RFSN+d7+cDz4ftcPQylFGsZgjWODMqgDP4XkFvuHwD9Pg2Igkbl9RSGnGXBxd07Z7zh4a71yhy3ltXdYAmRqGQApUpIqSUx1SNLYUA2mYKOa0tN9KAiC0YjguMGu69JLzuraTyeJ/IRE++LNkXLrbdbPK0HTELugb15pedKMzff05DszxFR7VhJCvbZsFSoZBUvjpp63DracUiSWEr0WUxyUZtgFkqcdN32ctD0TISf9mBUb2rvu1spvJsfc50pqIeaMOid64SFq4VntggcG4QvrABPl0ZHSnakQW0vEFgbxAU3AhM6kN9Cus8fV0Jx/iIyauow97G37svihOt6ZRMGZj9hOR6DlrPg+eR72DQEoUgY+zZoMekdtDIGl4Ux30xd3Agm4yqSASZMEhrlWLT/LSLdrzF3/yHYND0T/LEKPtWsdagdgiTgSH71gDaxpWN/kQpnK/JRZGKRiFPjT1uLFtN3EOuphqr4NFhDDthTFnuF9dKFMvUmO6JeL+ivmPhh28YrolmX3+CsM/qiQcQS/HESc4Y4VfJw+/AUlJTB1PwSanLGkWvdCsa8B3RlCaE3D9RswwmXMTb+NY8zG7tgszy2FDubq46dbBv1f7sViEb8zzxDqnrHrub5oNo+MuN3UCHpDqxqntQW/nl0MNDoSBIrKDHxfN/lFSm76hUj/xQZlEEZ/CfgXwEGAJu++644NvLcAAAAAElFTkSuQmCC');
+	
+}

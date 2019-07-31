@@ -1,0 +1,53 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ *
+ * @since      2.7.0
+ */
+
+.job_read_full {
+	cursor: pointer;
+}
+.job_apply {
+	cursor: pointer;
+}
+.zohoCRM[data-type="accordion"] .job_description {
+	display: none;	
+}
+
+.zohoCRM[data-type="cycle"] .all_jobs {
+	overflow: hidden;
+}
+
+.zohoCRM .field_wrap {
+	margin: 0 0 1em;
+}
+.zohoCRM .field_wrap input[type="file"] {
+	background: none; 
+	border: 0;
+}
+.zohoCRM .field_wrap.field_required label:after {
+	content: ' *';
+}
+
+#apply_form.invalid .field_required input:invalid {
+	border: 1px solid red;
+}
+.apply_ty,
+.apply_error {
+	display: none;
+}
+.cycle-slide-active .apply_ty {
+	display:block;
+}
+.custom-css-textarea {
+	display:none;
+
+}
+.hide {
+	display: none;
+}
+
+.helper{
+	max-width: 400px;
+}
